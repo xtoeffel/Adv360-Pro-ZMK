@@ -36,11 +36,11 @@
 
         default_layer {
             bindings = <
-&kp ESCAPE  &kp F1        &kp F2        &kp F3    &kp F4     &kp F5  &kp INSERT                                                            &mo 1       &kp F6  &kp F7  &kp F8     &kp F9         &kp F10          &kp PAUSE_BREAK
-&kp TAB     &kp Q         &kp W         &kp E     &kp R      &kp T   &kp PERCENT                                                           &kp DELETE  &kp Y   &kp U   &kp I      &kp O          &kp P            &kp BSLH
-&kp EQUAL   &kp A         &kp S         &kp D     &kp F      &kp G   &kp BACKSPACE  &kp LEFT_WIN  &kp LALT       &mo 4          &kp RCTRL  &kp MINUS   &kp H   &kp J   &kp K      &kp L          &kp SEMI         &kp SQT
-&kp LSHFT   &mt LCTRL Z   &kp X         &kp C     &kp V      &kp B                                &kp PG_UP      &kp PAGE_DOWN                         &kp N   &kp M   &kp COMMA  &kp DOT        &mt RCTRL SLASH  &kp RSHFT
-&kp LCTRL   &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT  &kp RIGHT          &kp SPACE      &lt 3 ESCAPE  &kp HOME       &kp END        &lt 2 TAB  &kp ENTER           &kp UP  &kp DOWN   &kp RIGHT_ALT  &kp RIGHT_WIN    &kp RIGHT_CONTROL
+&kp ESCAPE  &kp F1        &kp F2        &kp F3    &kp F4     &kp F5  &kp INSERT                                                            &mo 1        &kp F6  &kp F7  &kp F8     &kp F9         &kp F10          &kp PAUSE_BREAK
+&kp TAB     &kp Q         &kp W         &kp E     &kp R      &kp T   &kp ESCAPE                                                            &kp TAB      &kp Y   &kp U   &kp I      &kp O          &kp P            &kp BSLH
+&kp EQUAL   &kp A         &kp S         &kp D     &kp F      &kp G   &mo 3          &kp LEFT_WIN  &kp LALT       &mo 4          &kp RCTRL  &lt 2 MINUS  &kp H   &kp J   &kp K      &kp L          &kp SEMI         &kp SQT
+&kp LSHFT   &mt LCTRL Z   &kp X         &kp C     &kp V      &kp B                                &kp PG_UP      &kp PAGE_DOWN                          &kp N   &kp M   &kp COMMA  &kp DOT        &mt RCTRL SLASH  &kp RSHFT
+&kp LCTRL   &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT  &kp RIGHT          &kp BACKSPACE  &kp DELETE    &kp HOME       &kp END        &kp ENTER  &kp SPACE            &kp UP  &kp DOWN   &kp RIGHT_ALT  &kp RIGHT_WIN    &kp RIGHT_CONTROL
             >;
         };
 
