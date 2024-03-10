@@ -36,11 +36,11 @@
 
         default_layer {
             bindings = <
-&kp ESCAPE  &kp F1        &kp F2        &kp F3    &kp F4     &kp F5  &kp INSERT                                                                          &mo 1      &kp F6  &kp F7  &kp F8     &kp F9         &kp F10          &kp PAUSE_BREAK
-&kp TAB     &kp Q         &kp W         &kp E     &kp R      &kp T   &kp ESCAPE                                                                          &kp TAB    &kp Y   &kp U   &kp I      &kp O          &kp P            &kp BSLH
-&kp EQUAL   &kp A         &kp S         &kp D     &kp F      &kp G   &mo 3          &kp PAGE_UP   &kp C_MUTE           &mo 4              &kp PAGE_DOWN  &kp MINUS  &kp H   &kp J   &kp K      &kp L          &kp SEMI         &kp SQT
-&kp LSHFT   &hm LCTRL Z   &kp X         &kp C     &kp V      &kp B                                &kp C_VOLUME_UP      &kp C_VOLUME_DOWN                            &kp N   &kp M   &kp COMMA  &kp DOT        &hm RCTRL SLASH  &kp RSHFT
-&kp LCTRL   &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT  &kp RIGHT          &kp BACKSPACE  &lt 3 DELETE  &kp HOME             &kp END            &lt 2 ENTER    &kp SPACE          &kp UP  &kp DOWN   &kp RIGHT_ALT  &kp RIGHT_WIN    &kp RIGHT_CONTROL
+&kp ESCAPE  &kp F1        &kp F2        &kp F3    &kp F4     &kp F5  &kp INSERT                                                                       &mo 1       &kp F6  &kp F7  &kp F8     &kp F9         &kp F10          &kp PAUSE_BREAK
+&kp TAB     &kp Q         &kp W         &kp E     &kp R      &kp T   &kp PERCENT                                                                      &kp ESCAPE  &kp Y   &kp U   &kp I      &kp O          &kp P            &kp BSLH
+&kp EQUAL   &kp A         &kp S         &kp D     &kp F      &kp G   &kp DELETE   &kp C_MUTE       &kp C_VOLUME_UP        &kp PAGE_UP  &kp PAGE_DOWN  &kp MINUS   &kp H   &kp J   &kp K      &kp L          &kp SEMI         &kp SQT
+&kp LSHFT   &hm LCTRL Z   &kp X         &kp C     &kp V      &kp B                                 &kp C_VOLUME_DOWN      &kp HOME                                &kp N   &kp M   &kp COMMA  &kp DOT        &hm RCTRL SLASH  &kp RSHFT
+&kp LCTRL   &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT  &kp RIGHT          &kp SPACE    &lt 3 BACKSPACE  &kp HOME               &kp END      &lt 2 TAB      &kp ENTER           &kp UP  &kp DOWN   &kp RIGHT_ALT  &kp RIGHT_WIN    &kp RIGHT_CONTROL
             >;
         };
 
@@ -71,16 +71,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans    &kp EQUAL   &kp HASH      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COLON      &kp MINUS
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                        &kp PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH      &kp UNDERSCORE
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &kp CAPS  &caps_word                &kp NUMBER_0  &kp COMMA     &kp DOT       &kp LT         &kp GT
-            >;
-        };
-
-        layer_Media {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans        &trans        &trans                                          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans        &trans        &trans                                          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans        &trans                            &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                      &trans      &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
